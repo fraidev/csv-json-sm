@@ -1,0 +1,18 @@
+[package]
+name = "csv-json-sm"
+group = "infinyon"
+version = "0.1.0"
+apiVersion = "0.1.0"
+description = ""
+license = "Apache-2.0"
+visibility = "public"
+
+[[params]]
+name = "delimiter"
+description = "the field delimiter to use when parsing csv"
+optional = true
+
+[[params]]
+name = "header_case"
+description = "the case to use for the header fields"
+optional = true

@@ -1,0 +1,5 @@
+transforms:
+  - uses: infinyon/integer-sum-aggegrate@0.1.0
+    with:
+      delimiter: ";"
+      header_case: "snake"
